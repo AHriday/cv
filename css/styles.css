@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-size: 130%;
+}
+h1{
+    margin: 0;
+    font-size: 4rem;
+    padding-top: 6%;
+    font-family: 'Niconne', cursive;
+    color: #4AB19A;
+}
+h2{
+    color: #4DA39A;
+}
+h3{
+    color: #45B29A;
+    margin: 0.75rem;
+    font-size: 200%;
+}
+hr{
+    border-style: dotted none none;
+    border-color: gray;
+    width:10%;
+    border-width: 0.5rem;
+    margin: 5rem auto 5rem;
+}
+a{
+    color: #1a725f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    margin: auto 1.5rem auto 1.5rem;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    padding-top: 1rem;
+    color: #EAF6F6;
+    font-size: 100%;
+}
+/**************************************** Classes ****************************************/
+.firstdiv{
+    text-align: center;
+    background-color: #EAF6F6;
+}
+.topcloud{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+.bttmcloud{
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+}
+.mountain{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+.profile{
+    text-align: center;
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.skills{
+    text-align: left;
+    width: 80%;
+    max-width: 90%;
+    margin: 5rem auto 5rem;
+}
+.bttm{
+    text-align: center;
+    width: 80%;
+    max-width: 90%;
+    margin: 5rem auto 5rem;
+}
+.footer{
+    padding: 2rem 0 0.5rem 0;
+    background-color: #45B29A;
+    text-align: center;
+}
+/**************************************** IDs ****************************************/
+#profpic{
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+}
+#sechead{
+    text-align: center;
+    font-size: 230%;
+}
+/**************************************** Button ****************************************/
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #45B29A;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #32826f;
+    text-decoration: none;
+  }
